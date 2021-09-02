@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <item
+     android:id="@+id/menuSeach"
+     android:icon="@drawable/seach"
+     app:showAsAction="always"
+     android:title="seach"
+
+
+     />
+    <item
+
+        android:id="@+id/optionMenuSort"
+        android:title="Sort"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:id="@+id/optionMenuView"
+        android:title="View"
+        android:orderInCategory="100"
+        android:icon="@drawable/viewmenu"
+        />
+    <item
+        android:id="@+id/optionMenuSetting"
+        android:icon="@drawable/seach"
+        android:orderInCategory="100"
+        android:title="Seach"
+
+        />
+    <item
+        android:id="@+id/optionMenu"
+        android:title="Setting"
+        android:icon="@drawable/setting"
+        android:orderInCategory="100"
+        />
+
+
+</menu>

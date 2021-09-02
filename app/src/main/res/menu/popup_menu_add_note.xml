@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+ <item
+     android:id="@+id/addText"
+     android:icon="@drawable/text"
+     android:title="Text"
+     />
+    <item
+        android:id="@+id/addCheckList"
+        android:icon="@drawable/checklist"
+        android:title="CheckList"
+        />
+
+</menu>

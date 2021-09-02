@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionSelectColor"
+        app:showAsAction="always"
+        android:icon="@drawable/circle"
+        android:title="SelectColor"
+        />
+    <item
+        android:id="@+id/actionDeleteText"
+        app:showAsAction="never"
+        android:title="Delete"
+    />
+    <item
+        android:id="@+id/actionLockText"
+        app:showAsAction="never"
+        android:title="Lock"
+        />
+    <item
+        android:id="@+id/actionShare"
+        app:showAsAction="never"
+        android:title="Share"
+        />
+    <item
+        android:id="@+id/actionCopy"
+        app:showAsAction="never"
+        android:title="Copy"
+        />
+
+
+
+</menu>

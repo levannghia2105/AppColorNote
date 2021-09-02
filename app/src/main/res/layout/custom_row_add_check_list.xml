@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_marginTop="10dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageView
+
+            android:id="@+id/imgCheckList"
+            android:layout_marginTop="7dp"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:src="@drawable/sort"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/txtCheckList"
+            android:layout_marginTop="7dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="fadsfadsf"
+            android:textColor="#f000"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imgCheckList"
+            android:layout_weight="8"/>
+        <ImageButton
+            android:id="@+id/imgDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
